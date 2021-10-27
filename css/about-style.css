@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    padding: 20px;   
+}
+
+img{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.banner {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) center/cover no-repeat;
+    background-image: url('https://www.highstreet.co.id/UserFiles/Image/bariuma/IKP_5792.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.container{
+    background-color: #fff;
+    opacity: 0.75;
+    width: 900px;
+    height: fit-content;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 340px 560px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.container-grid-reverse{
+    display: grid;
+    grid-template-columns: 560px 340px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.text-container{
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+
+
+

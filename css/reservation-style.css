@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+form label {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) center/cover no-repeat;
+    background-image: url('https://www.highstreet.co.id/UserFiles/Image/bariuma/IKP_5792.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#res-title{
+    color: #fff;
+}
+
+.reservation-form{
+    display: grid;
+    grid-template-columns:420px 420px;
+}
+
+.card-container{
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.card-content{
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: fit-content;
+    height: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.row{
+    margin: 20px;
+}
+
+.btn-outline-secondary{
+    margin-left: 20px;
+}
+
+@media(max-width: 992px) {
+    #res-title{
+        margin-top: 20px;
+    }
+
+    .reservation-form{
+        grid-template-columns: 100%;
+        margin-right: 20px;
+    }
+}
